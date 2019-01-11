@@ -1,0 +1,7 @@
+/pdf
+/docx
+/gfm
+*.tex
+*.cls
+*.tikz
+*.sty

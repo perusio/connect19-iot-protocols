@@ -1,0 +1,65 @@
+\ifx\XFigwidth\undefined\dimen1=0pt\else\dimen1\XFigwidth\fi
+\divide\dimen1 by 6763
+\ifx\XFigheight\undefined\dimen3=0pt\else\dimen3\XFigheight\fi
+\divide\dimen3 by 15462
+\ifdim\dimen1=0pt\ifdim\dimen3=0pt\dimen1=4143sp\dimen3\dimen1
+  \else\dimen1\dimen3\fi\else\ifdim\dimen3=0pt\dimen3\dimen1\fi\fi
+\tikzpicture[x=+\dimen1, y=+\dimen3]
+{\ifx\XFigu\undefined\catcode`\@11
+\def\temp{\alloc@1\dimen\dimendef\insc@unt}\temp\XFigu\catcode`\@12\fi}
+\XFigu4143sp
+% Uncomment to scale line thicknesses with the same
+% factor as width of the drawing.
+%\pgfextractx\XFigu{\pgfqpointxy{1}{1}}
+\ifdim\XFigu<0pt\XFigu-\XFigu\fi
+\definecolor{xfigc32}{rgb}{0.420,0.745,0.949}
+\definecolor{xfigc33}{rgb}{0.349,0.392,0.000}
+\definecolor{xfigc34}{rgb}{0.831,0.831,0.831}
+\clip(1831,-8398) rectangle (8594,7064);
+\tikzset{inner sep=+0pt, outer sep=+0pt}
+\pgfsetlinewidth{+45\XFigu}
+\draw (8475,-8354) [rounded corners=+135\XFigu] rectangle (1875,-7442);
+\draw (8505,-3285) [rounded corners=+165\XFigu] rectangle (1935,-1125);
+\pgfsetlinewidth{+30\XFigu}
+\draw (6322,-3075) [rounded corners=+165\XFigu] rectangle (4117,-2040);
+\pgfsetlinewidth{+45\XFigu}
+\draw (8550,-810) [rounded corners=+165\XFigu] rectangle (1935,810);
+\pgfsetlinewidth{+30\XFigu}
+\draw (5100,1320) [rounded corners=+165\XFigu] rectangle (2895,2355);
+\draw (7710,1335) [rounded corners=+165\XFigu] rectangle (5505,2370);
+\pgfsetlinewidth{+45\XFigu}
+\draw (8550,1125) [rounded corners=+165\XFigu] rectangle (1980,3285);
+\pgfsetlinewidth{+30\XFigu}
+\draw (4995,4995) [rounded corners=+105\XFigu] rectangle (2835,5850);
+\draw (7470,4995) [rounded corners=+105\XFigu] rectangle (5310,5850);
+\pgfsetlinewidth{+45\XFigu}
+\draw (8535,3600) [rounded corners=+165\XFigu] rectangle (1965,7020);
+\pgfsetlinewidth{+30\XFigu}
+\draw (3555,-5715) [rounded corners=+165\XFigu] rectangle (2220,-4830);
+\draw (3555,-6795) [rounded corners=+165\XFigu] rectangle (2220,-5910);
+\draw (5130,-5715) [rounded corners=+165\XFigu] rectangle (3795,-4830);
+\draw (5130,-6795) [rounded corners=+165\XFigu] rectangle (3795,-5910);
+\draw (8164,-6168) [rounded corners=+165\XFigu] rectangle (5335,-5457);
+\pgfsetlinewidth{+45\XFigu}
+\draw (8445,-7050) [rounded corners=+165\XFigu] rectangle (1875,-3630);
+\pgftext[base,at=\pgfqpointxy{5175}{-7822}] {\fontsize{14}{16.8}\normalfont\sffamily Devices};
+\pgftext[base,at=\pgfqpointxy{5175}{-8100}] {\fontsize{12}{14.4}\normalfont\sffamily sensors \& actuators};
+\pgftext[base,at=\pgfqpointxy{5265}{-1575}] {\fontsize{14}{16.8}\normalfont\sffamily Southbound interface};
+\pgftext[base,at=\pgfqpointxy{5220}{-2617}] {\fontsize{12}{14.4}\normalfont\sffamily MQTT API};
+\pgftext[base,at=\pgfqpointxy{5242}{-180}] {\fontsize{12}{14.4}\normalfont\sffamily core functionality: request processing \& local data storage };
+\pgftext[base,at=\pgfqpointxy{5242}{135}] {\fontsize{14}{16.8}\normalfont\sffamily Core services};
+\pgftext[base,at=\pgfqpointxy{3997}{1770}] {\fontsize{12}{14.4}\normalfont\sffamily HTTP API};
+\pgftext[base,at=\pgfqpointxy{6607}{1793}] {\fontsize{12}{14.4}\normalfont\sffamily MQTT API};
+\pgftext[base,at=\pgfqpointxy{5310}{2835}] {\fontsize{14}{16.8}\normalfont\sffamily Northbound interface};
+\pgftext[base,left,at=\pgfqpointxy{3060}{5355}] {\fontsize{12}{14.4}\normalfont\sffamily relayr Cloud adapter};
+\pgftext[base,left,at=\pgfqpointxy{4080}{4365}] {\fontsize{12}{14.4}\normalfont\sffamily edge to cloud connectivity};
+\pgftext[base,left,at=\pgfqpointxy{3000}{3960}] {\fontsize{12}{14.4}\normalfont\sffamily pre-processing data before being sent to the cloud};
+\pgftext[base,left,at=\pgfqpointxy{5535}{5355}] {\fontsize{12}{14.4}\normalfont\sffamily other cloud adapters};
+\pgftext[base,left,at=\pgfqpointxy{4320}{6255}] {\fontsize{14}{16.8}\normalfont\sffamily Northbound services};
+\pgftext[base,at=\pgfqpointxy{2887}{-5340}] {\fontsize{14}{16.8}\normalfont\sffamily Modbus TCP};
+\pgftext[base,at=\pgfqpointxy{2880}{-6390}] {\fontsize{14}{16.8}\normalfont\sffamily OPC-UA};
+\pgftext[base,at=\pgfqpointxy{4462}{-5340}] {\fontsize{14}{16.8}\normalfont\sffamily Siemens S7};
+\pgftext[base,at=\pgfqpointxy{4455}{-6390}] {\fontsize{14}{16.8}\normalfont\sffamily BACnet};
+\pgftext[base,at=\pgfqpointxy{6750}{-5868}] {\fontsize{14}{16.8}\normalfont\sffamily miscellaneous device services};
+\pgftext[base,at=\pgfqpointxy{5115}{-4395}] {\fontsize{14}{16.8}\normalfont\sffamily Southbound services};
+\endtikzpicture%

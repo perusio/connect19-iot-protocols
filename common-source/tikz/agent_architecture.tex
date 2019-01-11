@@ -1,0 +1,18 @@
+%%% This file is for generating the PDF file using the output from
+%%% XFig exporting as TeX/LaTeX + tikz macros.
+\documentclass[tikz]{standalone}
+
+%% This needs to be here because of the standalone class.
+\usepackage{luatex85}
+%% Source sans pro is the default document font.
+\usepackage[default, semibold, otf]{sourcesanspro}
+
+\begin{document}
+%% Include the TikZ commands.
+\input{agent_architecture.tikz}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "diagrams"
+%%% End:
