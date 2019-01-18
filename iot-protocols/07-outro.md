@@ -20,7 +20,7 @@ bottom line: **there is no silver bullet**
 
 * [**GitHub**](https://github.com/perusio)
 * [**LinkedIn**](https://www.linkedin.com/in/perusio)
-* this presentation: [`tinyurl.com/gotoams2017-iot`](http://tinyurl.com/gotoams2017-iot)
+* this presentation: [`https://github.com/perusio/connect19-iot-protocols`](https://github.com/perusio/connect19-iot-protocols)
  
 # questions?
 
